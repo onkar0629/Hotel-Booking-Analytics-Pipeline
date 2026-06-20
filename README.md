@@ -12,18 +12,5 @@ An end-to-end Data Engineering project that demonstrates data ingestion, storage
 
 ## Project Flow
 
-Hotel Booking Dataset
-        ↓
-      MySQL
-        ↓
-      Sqoop
-        ↓
-      HDFS
-        ↓
- Hive External Table
-        ↓
-   Partitioning
-        ↓
-    Bucketing
-        ↓
-  Hive Analytics
+
+MySQL → Sqoop → HDFS → Hive External Table → Partition → Bucket → Analysis
