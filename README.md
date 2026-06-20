@@ -1,10 +1,10 @@
 # Hotel Booking Analytics Pipeline
 
-## Project Overview
+## Overview
 
-This project demonstrates an end-to-end Data Engineering pipeline using the Hadoop ecosystem.
+This project demonstrates an end-to-end Data Engineering workflow using the Hadoop ecosystem on Cloudera QuickStart VM.
 
-The project imports hotel booking data from MySQL into Hadoop using Sqoop, stores data in HDFS, performs Hive-based optimization using Partitioning and Bucketing, and generates business insights through HiveQL.
+The pipeline extracts hotel booking data from MySQL, imports it into Hadoop using Sqoop, stores it in HDFS, optimizes storage and query performance using Hive Partitioning and Bucketing, and performs analytical reporting using HiveQL.
 
 ---
 
@@ -12,16 +12,28 @@ The project imports hotel booking data from MySQL into Hadoop using Sqoop, store
 
 - MySQL
 - Sqoop
-- Hadoop
-- HDFS
+- Hadoop HDFS
 - Hive
-- Git & GitHub
+- Git
+- GitHub
+- Cloudera QuickStart VM
 
 ---
 
-## Architecture
+## Dataset
 
-```text
+Hotel Booking Demand Dataset
+
+Total Records: 119,390
+
+Total Columns: 20
+
+Kaggle : 
+
+---
+
+## Architecture/Project Flow
+
 Hotel Booking Dataset
         ↓
       MySQL
@@ -36,7 +48,9 @@ Hotel Booking Dataset
         ↓
  Bucketing
         ↓
- Hive Analytics
+ Business Analytics
+
+---
 ```
 
 ---
@@ -47,7 +61,7 @@ Hotel Booking Dataset
 |-----------|----------------------|
 | Dataset   | Hotel Booking Demand |
 | Records   | 119,390              |
-| Columns   | 21                   |
+| Columns   | 20                   |
 | Source    | Kaggle               |  
 
 ---
