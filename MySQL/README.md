@@ -89,8 +89,16 @@ CREATE TABLE hotel_bookings (
 
 ## Data Loading
 
-The Hotel Booking dataset was imported into MySQL using LOAD Command .
-.
+ The Hotel Booking dataset was imported into MySQL using LOAD Command .
+
+ ```sql
+LOAD DATA LOCAL INFILE '/home/cloudera/Desktop/bookings.csv'
+INTO TABLE hotel_bookings
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+```
+
 ---
 
 ## Data Validation
