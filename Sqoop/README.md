@@ -201,18 +201,25 @@ Successfully imported 119,390 hotel booking records from MySQL into HDFS using A
 
 ### MySQL Source Table
 
-*Add screenshot here*
+<img width="559" height="370" alt="Screenshot 2026-06-20 231339" src="https://github.com/user-attachments/assets/7c1049b3-2cd0-44c6-aa94-02b8a732d017" />
+
 
 ### Sqoop Execution
 
-*Add screenshot here*
+<img width="579" height="101" alt="Sqoop import command" src="https://github.com/user-attachments/assets/cf0839b1-3d43-465f-aaf4-ec1944d9f091" />
+
 
 ### HDFS Verification
 
-*Add screenshot here*
+<img width="878" height="69" alt="Screenshot 2026-06-21 080915" src="https://github.com/user-attachments/assets/adc33819-2f9a-4b1f-8355-f7076fb3f154" />
+
+__________
+
+<img width="906" height="201" alt="Screenshot 2026-06-21 081121" src="https://github.com/user-attachments/assets/cb0710ef-742c-4254-a786-43c392f7133f" />
 
 ### Imported Files
 
-*Add screenshot here*
+<img width="781" height="70" alt="sqoop" src="https://github.com/user-attachments/assets/7b37181f-34f1-4e41-94f0-744849a9de5d" />
+
 
 ---
