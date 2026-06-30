@@ -4,7 +4,7 @@
 
 This project demonstrates an end-to-end Data Engineering pipeline built on the Hadoop ecosystem using Cloudera QuickStart VM.
 
-The pipeline extracts hotel booking data from MySQL, imports it into Hadoop using Sqoop, stores data in HDFS, optimizes query performance using Hive Partitioning and Bucketing, and generates business insights using HiveQL.
+The pipeline extracts hotel booking data from MySQL, imports it into Hadoop using Sqoop, stores data in HDFS, optimizes query performance using Hive Partitioning and Bucketing, and generates business insights using HiveQL
 
 ---
 
